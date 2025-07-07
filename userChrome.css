@@ -1,0 +1,36 @@
+#sidebar-box[sidebarcommand="_f9a7bfdd-59d9-4740-82e4-26232256236d_-sidebar-action"] #sidebar-header, #sidebar-box[sidebarcommand="_f9a7bfdd-59d9-4740-82e4-26232256236d_-sidebar-action"] #sidebar-panel-header {
+    display: none !important;
+}
+
+#sidebar-box[sidebarcommand="_f9a7bfdd-59d9-4740-82e4-26232256236d_-sidebar-action"] + #sidebar-splitter {
+    width: 1px !important;
+    border: 0 !important;
+}
+
+[sidebarcommand="_f9a7bfdd-59d9-4740-82e4-26232256236d_-sidebar-action"] {
+    min-width: 36px !important;
+    max-width: 44px !important;
+    padding-left: 4px!important;
+}
+
+#sidebar-panel-header {
+    display: none !important;
+}
+
+#sidebar, #sidebar-box {
+    overflow: visible !important;
+}
+
+.tabbrowser-tab[pinned] {
+    display: none!important;
+}
+
+button[title="SingleFile"]
+{
+	display: none !important;
+}
+#sidebar-main{
+    /*min-width: 36px !important;
+    max-width: 44px !important;*/
+    display: none;
+}
